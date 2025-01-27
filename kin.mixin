@@ -3,9 +3,9 @@
         "kin": {
             "cmake-args": [
                 "-DCMAKE_C_COMPILER_LAUNCHER=ccache",
-                "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache"
-                "-DCMAKE_BUILD_TYPE=$BUILD_TYPE"
-                "-DCMAKE_BUILD_TESTING=$BUILD_TESTS"
+                "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache",
+                "-DCMAKE_BUILD_TYPE=$BUILD_TYPE",
+                "-DCMAKE_BUILD_TESTING=$BUILD_TESTS",
                 "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
             ]
         }
